@@ -1,0 +1,244 @@
+* {
+        padding: 0px;
+        margin: 0px;
+
+}
+
+body {
+
+}
+
+#nav-bg {
+        background-color: white;
+        height: 100px;
+        width: 100%;
+        margin-top: -15px;
+        position: fixed;
+
+
+}
+
+#top-nav ul {
+        margin-left: 500px;
+        position: relative;
+        top: 50px;
+        list-style: none;
+}
+
+#top-nav ul li {
+        display: inline-block;
+        margin-left: 30px;
+}
+
+#top-nav ul li a {
+        text-decoration: none;
+        color: darkblue;
+        font-weight: lighter;
+}
+
+#top-nav ul li a:hover {
+        color: lightblue;
+}
+
+
+#logo-holder {
+        margin-left: 200px;
+        margin-top: 20px;
+}
+
+
+#logo img {
+        height: 40px;
+        width: 40px;
+}
+
+#text-holder {
+        margin-left: 50px;
+        margin-top: -32px;
+}
+
+
+#text-holder p a {
+        text-decoration: none;
+        color: darkblue;
+}
+
+#text-holder p a:hover {
+        color: lightblue;
+}
+
+#parallax {
+        /* This is how to make a parallax background */
+        background: url("../img/background.jpg");
+        /*In order to get the img to appear I had to use the path above*/
+        height: 800px;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+         background-size: cover;
+}
+
+#parallax-overlay {
+
+        /*For the transparent background I had to switch to a semi-transparent rgb background color to allow the text to be displayed correctly and not be transparent as well.*/
+        /*background-color: dodgerblue;
+        opacity: 0.5;*/
+        height: 800px;
+        width: 40%;
+        background: rgba(30, 144, 255, 0.5);
+
+}
+
+#title-text p {
+        color: White;
+        font-weight: bolder;
+        font-size: 40px;
+        font-family: sans-serif;
+}
+
+#title-text span {
+        font-weight: lighter;
+        font-size: 40px;
+}
+
+#title-text {
+        padding-bottom: 20px;
+}
+
+#title-para {
+        color: white;
+        font-weight: 700;
+        font-family: sans-serif;
+}
+
+#parallax-text {
+        /* I had to remove position relative because when the position is relative the text shows up on the nav bar when scrolling rather than going behind it so instead I used padding instead of top and left. */
+        padding-top: 310px;
+        padding-left: 180px;
+}
+
+#practice-areas {
+        background-color: white;
+        height: 500px;
+}
+
+#practice-overlay {
+
+        /*For the transparent background I had to switch to a semi-transparent rgb background color to allow the text to be displayed correctly and not be transparent as well.*/
+        /*background-color: dodgerblue;
+        opacity: 0.5;*/
+        height: 800px;
+        width: 40%;
+        background: rgba(30, 144, 255, 0.1);
+}
+
+
+#practice-areas-text {
+        padding-top: 100px;
+        padding-left: 170px;
+}
+
+#practice-areas-text p {
+        color: darkblue;
+        font-size: 40px;
+        font-weight: bolder;
+}
+
+#practice-areas-text span {
+        font-weight: 400;
+}
+
+#practice-list {
+        margin-left: 550px;
+        margin-top: -735px;
+}
+
+#practice-list ul li {
+        padding-bottom: 80px;
+        width: 220px;
+        color: darkblue;
+}
+
+
+#red {
+        background-color: grey;
+        height: 1000px;
+}
+
+#practice-list-2 {
+        margin-left: 880px;
+        margin-top: -456px;
+}
+
+#practice-list-2 ul li {
+        padding-bottom: 80px;
+        width: 220px;
+        color: darkblue;
+}
+
+#blue-bg {
+        background-color: #00305B;
+        width: 100%;
+        height: 600px;
+}
+
+#vision h2 {
+        color: white;
+        font-size: 40px;
+        font-weight: 100;
+        font-family: sans-serif;
+        padding-top: 80px;
+        padding-bottom: 100px;
+        text-align: center;
+}
+
+#vision span {
+        font-weight: 900;
+}
+
+#blue-bg-para {
+        margin-left: 210px;
+}
+
+
+#blue-bg-para p {
+        color: white;
+        font-family: sans-serif;
+        padding-bottom: 40px;
+        width: 870px;
+        text-align: center;
+}
+
+#meeting-parallax-bg {
+        /* This is how to make a parallax background */
+        background: url("../img/meeting-opacity.jpg");
+        /*In order to get the img to appear I had to use the path above*/
+        height: 800px;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+#attorneys-page {
+        background-color: #EAF4F6;
+        height: 800px;
+}
+
+#attorneys-page h2 {
+        padding-top: 15px;
+        text-align: center;
+        color: darkblue;
+        font-size: 40px;
+}
+
+#aiden {
+        margin-left: 300px;
+        margin-top: 100px;
+}
+
+#aiden-info h1 {
+        margin-left: -5px;
+}
