@@ -89,7 +89,6 @@
         color: White;
         font-weight: bolder;
         font-size: 40px;
-        font-family: sans-serif;
 }
 
 #title-text span {
@@ -104,7 +103,6 @@
 #title-para {
         color: white;
         font-weight: 700;
-        font-family: sans-serif;
 }
 
 #parallax-text {
@@ -176,7 +174,6 @@
         color: white;
         font-size: 40px;
         font-weight: 100;
-        font-family: sans-serif;
         padding-top: 80px;
         padding-bottom: 100px;
         text-align: center;
@@ -186,17 +183,19 @@
         font-weight: 900;
 }
 
+#blue-bg-text-holder {
+        width: 70%;
+        margin: 0 auto;
+}
+
 #blue-bg-para {
-        margin-left: 210px;
+        text-align: center;
 }
 
 
 #blue-bg-para p {
         color: white;
-        font-family: sans-serif;
         padding-bottom: 40px;
-        width: 870px;
-        text-align: center;
 }
 
 #meeting-parallax-bg {
@@ -215,10 +214,16 @@
         background-color: #EAF4F6;
         height: 800px;
 }
-/* 
+
 #attorneys-holder {
-        display: 
-} */
+        text-align: center;
+        padding-top: 100px;
+}
+
+.align {
+        display: inline-block;
+        margin-left: 120px;
+}
 
 #attorneys-page h2 {
         padding-top: 15px;
@@ -231,45 +236,7 @@
         font-weight: 100;
 }
 
-#aiden {
-        margin-left: 300px;
-        margin-top: 100px;
-}
-
-#aiden-info {
-        text-align: center;
-        margin-right: 800px;
-}
-
-#aiden-info h1 {
-        font-size: 20px;
-}
-
-#julia {
-        margin-left: 600px;
-        margin-top: -452px;
-}
-
-#julia-info {
-        text-align: center;
-        margin-right: 490px;
-}
-
-#julia-info h1 {
-        font-size: 20px;
-}
-
-#james {
-        margin-left: 900px;
-        margin-top: -450px;
-}
-
-#james-info {
-        text-align: center;
-        margin-right: 185px;
-}
-
-#james-info h1 {
+.info-size {
         font-size: 20px;
 }
 
@@ -285,6 +252,14 @@
         text-align: center;
 }
 
+.size {
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+
+}
+
+
 #box1 {
         background-color: yellow;
 }
@@ -297,8 +272,3 @@
         background-color: orange;
 }
 
-.size {
-        width: 200px;
-        height: 200px;
-        display: inline-block;
-}
