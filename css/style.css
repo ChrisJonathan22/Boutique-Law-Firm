@@ -1,10 +1,7 @@
 * {
         padding: 0px;
         margin: 0px;
-
-}
-
-body {
+        font-family: sans-serif,'Segoe UI', Tahoma, Geneva, Verdana;
 
 }
 
@@ -14,12 +11,10 @@ body {
         width: 100%;
         margin-top: -15px;
         position: fixed;
-
-
+        text-align: center;
 }
 
 #top-nav ul {
-        margin-left: 500px;
         position: relative;
         top: 50px;
         list-style: none;
@@ -42,7 +37,7 @@ body {
 
 
 #logo-holder {
-        margin-left: 200px;
+        margin-left: -1000px;
         margin-top: 20px;
 }
 
@@ -53,7 +48,7 @@ body {
 }
 
 #text-holder {
-        margin-left: 50px;
+        margin-left: 210px;
         margin-top: -32px;
 }
 
@@ -76,7 +71,7 @@ body {
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
-         background-size: cover;
+        background-size: cover;
 }
 
 #parallax-overlay {
@@ -160,12 +155,6 @@ body {
         color: darkblue;
 }
 
-
-#red {
-        background-color: grey;
-        height: 1000px;
-}
-
 #practice-list-2 {
         margin-left: 880px;
         margin-top: -456px;
@@ -226,6 +215,10 @@ body {
         background-color: #EAF4F6;
         height: 800px;
 }
+/* 
+#attorneys-holder {
+        display: 
+} */
 
 #attorneys-page h2 {
         padding-top: 15px;
@@ -234,11 +227,78 @@ body {
         font-size: 40px;
 }
 
+#thin-text {
+        font-weight: 100;
+}
+
 #aiden {
         margin-left: 300px;
         margin-top: 100px;
 }
 
+#aiden-info {
+        text-align: center;
+        margin-right: 800px;
+}
+
 #aiden-info h1 {
-        margin-left: -5px;
+        font-size: 20px;
+}
+
+#julia {
+        margin-left: 600px;
+        margin-top: -452px;
+}
+
+#julia-info {
+        text-align: center;
+        margin-right: 490px;
+}
+
+#julia-info h1 {
+        font-size: 20px;
+}
+
+#james {
+        margin-left: 900px;
+        margin-top: -450px;
+}
+
+#james-info {
+        text-align: center;
+        margin-right: 185px;
+}
+
+#james-info h1 {
+        font-size: 20px;
+}
+
+.blue {
+        color: #76A7D1;
+        font-weight: 100;
+}
+
+
+#red {
+        background-color: grey;
+        height: 1000px;
+        text-align: center;
+}
+
+#box1 {
+        background-color: yellow;
+}
+
+#box2 {
+        background-color: blue;
+}
+
+#box3 {
+        background-color: orange;
+}
+
+.size {
+        width: 200px;
+        height: 200px;
+        display: inline-block;
 }
