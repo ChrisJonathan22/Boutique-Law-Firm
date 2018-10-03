@@ -247,9 +247,9 @@
 }
 
 
-#red {
+#contact {
         /* This is how to make a parallax background */
-        background: url("../img/offices.jpg");
+        background: url("../img/building.jpg");
         /*In order to get the img to appear I had to use the path above*/
         height: 800px;
         background-size: cover;
@@ -260,23 +260,28 @@
         text-align: center;
 }
 
+
+#left {
+        height: 800px;
+        width: 40%;
+        background: rgba(30, 144, 255, 0.5);
+        float: left;
+}
+
+#right {
+        height: 800px;
+        width: 60%;
+        background: rgba(106, 180, 255, 0.5);
+        float: right;
+}
+
 .size {
         width: 200px;
         height: 200px;
         display: inline-block;
-
+        background-color: red;
 }
 
 
-#box1 {
-        background-color: yellow;
-}
 
-#box2 {
-        background-color: blue;
-}
-
-#box3 {
-        background-color: orange;
-}
 
