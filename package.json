@@ -1,0 +1,23 @@
+{
+  "name": "boutique-law-firm",
+  "version": "1.0.0",
+  "description": "Basic Law firm web page.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisJonathan22/Boutique-Law-Firm.git"
+  },
+  "author": "Chris Jonathan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisJonathan22/Boutique-Law-Firm/issues"
+  },
+  "homepage": "https://github.com/ChrisJonathan22/Boutique-Law-Firm#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "serve-favicon": "^2.5.0"
+  }
+}

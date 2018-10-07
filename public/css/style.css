@@ -251,7 +251,7 @@
         /* This is how to make a parallax background */
         background: url("../img/building.jpg");
         /*In order to get the img to appear I had to use the path above*/
-        height: 800px;
+        height: 640px;
         background-size: cover;
         background-attachment: fixed;
         background-position: center;
@@ -262,22 +262,84 @@
 
 
 #left {
-        height: 800px;
+        height: 640px;
         width: 40%;
         background: rgba(30, 144, 255, 0.5);
         float: left;
 }
 
 #contact-title {
+        text-align: center;
+        margin-top: 140px;
+}
+
+
+#contact-title h2 {
         color: white;
         font-size: 40px;
 }
 
+.light {
+        font-weight: 300;
+}
+
 #right {
-        height: 800px;
+        height: 640px;
         width: 60%;
         background: rgba(106, 180, 255, 0.5);
         float: right;
+        color: white;
+        text-align: left;
+}
+
+#address-holder {
+        margin-left: -80px;
+        margin-top: 150px;
+}
+
+
+#address-holder h6 {
+        font-size: 20px;
+        padding-bottom: 30px;
+}
+
+#address-holder span {
+        font-weight: 300;
+}
+
+#address-holder p {
+        padding-bottom: 5px;
+}
+
+#address-holder a {
+        color: lightblue;
+        text-decoration: none;
+}
+
+#contact-form p {
+        padding-bottom: 20px;
+}
+
+.input {
+        width: 35%;
+        height: 30px;
+        margin-bottom: 10px;
+}
+
+#contact-form #message {
+        width: 35%;
+        height: 118px;
+        float: right;
+        margin-right: 235px;
+        margin-top: -88px;
+}
+
+#contact-form #message::placeholder-shown {
+        
+}
+
+#contact-form #message::placeholder {
+        
 }
 
 /* .size {

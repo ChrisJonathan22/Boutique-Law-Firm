@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Boutique Law Firm</title>
-<link rel="shortcut icon" href="/img/logo.ico" type="image/x-icon">
+<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
@@ -12,7 +12,7 @@
         <div id="nav-holder">
                         <nav id="top-nav">
                                 <ul>
-                                        <li><a href="index.html">HOME</a></li>
+                                        <li><a href="/boutiquelawfirm">HOME</a></li>
                                         <li><a href="#">PRACTICE AREAS</a></li>
                                         <li><a href="#">OUR VISION</a></li>
                                         <li><a href="#">ATTORNEYS</a></li>
@@ -20,8 +20,8 @@
                                 </ul>
                         </nav>
                         <div id="logo-holder">
-                                <div id="logo"><a href="index.html"><img src="img/logo.png" alt=""></a></div>
-                                <div id="text-holder"><p><a href="index.html">KNOLL &amp; WALTERS LLP</a></p></div>
+                                <div id="logo"><a href="/boutiquelawfirm"><img src="img/logo.png" alt=""></a></div>
+                                <div id="text-holder"><p><a href="/boutiquelawfirm">KNOLL &amp; WALTERS LLP</a></p></div>
                         </div>
         </div>
 </header>
@@ -117,13 +117,31 @@
 <div id="contact">
         <div id="left">
                 <div id="contact-title">
-                        <h2>CONTACT <br/> KNOLL & <br/>WALTERS</h2>
+                        <h2>CONTACT <br/> <span class="light">KNOLL &</span> <br/><span class="light">WALTERS</span></h2>
                 </div>
         </div>
-        <div id="right"></div>
+        <div id="right">
+                <div id="address-holder">
+                        <h6>OUR <span>ADDRESS</span></h6>
+                        <p>500 Terry Francois St. San Francisco, CA 94158​</p>
+                        <p>Email: info@mysite.com</p>
+                        <p>Tel:  123-456-7890</p>
+                        <br/>
+                        <a href="#">Click Here to Find Us</a>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <div id="contact-form">
+                                <p>For any general inquiries, please fill in the following contact form:</p>
+                                <form >
+                                        <input type="text" name="name" id="name" class="input" placeholder="Name"><br/>
+                                        <input type="text" name="email" id="email" class="input" placeholder="Email"><br/>
+                                        <input type="text" name="subject" id="subject" class="input" placeholder="Subject">
+                                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Messages"></textarea>
+                                </form>
+                        </div>
+                </div>
+        </div>
 </div>
-<form >
-        <label for="">Name</label>
-</form>
 </body>
 </html>
