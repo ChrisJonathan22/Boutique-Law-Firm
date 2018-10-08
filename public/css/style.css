@@ -334,13 +334,41 @@
         margin-top: -88px;
 }
 
-#contact-form #message::placeholder-shown {
-        
+#contact-form #button {
+        background-color: #41B7C4;
+        color: white;
+        font-size: 20px;
+        font-weight: 100;
+        width: 90px;
+        height: 30px;
+        float: right;
+        margin-right: 235px;
+        outline: none;
 }
 
-#contact-form #message::placeholder {
-        
+#back-to-top {
+        height: 80px;
+        background-color: #00305B;
+        text-align: center;
+        padding-top: 80px;
 }
+
+#back-to-top img {
+        transform: rotate(180deg);
+        margin-top: -60px;
+        margin-left: 600px;
+        padding-bottom: 30px;
+        display: block;
+}
+
+#back-to-top a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 100;
+}
+
+
 
 /* .size {
         width: 200px;
