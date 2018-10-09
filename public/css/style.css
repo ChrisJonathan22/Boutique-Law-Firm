@@ -109,6 +109,7 @@
         /* I had to remove position relative because when the position is relative the text shows up on the nav bar when scrolling rather than going behind it so instead I used padding instead of top and left. */
         padding-top: 310px;
         padding-left: 180px;
+        display: none;
 }
 
 #practice-areas {
@@ -368,14 +369,20 @@
         font-weight: 100;
 }
 
+.fadeIn {
+        animation: fade 2s linear;
+}
 
+@keyframes fade {
+        0% {
+                display: inline-block;
+                opacity: 0;
+        }
 
-/* .size {
-        width: 200px;
-        height: 200px;
-        display: inline-block;
-        background-color: red;
-} */
+        100% {
+                opacity: 1;
+        }
+}
 
 
 
