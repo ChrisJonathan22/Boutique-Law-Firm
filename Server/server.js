@@ -1,7 +1,7 @@
 const express = require('express');
-const app = express();
 const path = require('path');
 const favicon = require('serve-favicon');
+const app = express();
 const port = 3000;
 
 app.use(favicon(path.join(__dirname, '../public/img', 'logo.ico')));

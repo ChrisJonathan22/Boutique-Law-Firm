@@ -131,6 +131,7 @@
 #practice-areas-text {
         padding-top: 100px;
         padding-left: 170px;
+        display: none;
 }
 
 #practice-areas-text p {
