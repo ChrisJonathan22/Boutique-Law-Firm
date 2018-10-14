@@ -5,6 +5,67 @@
 
 }
 
+.container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        border: green 1px solid;
+}
+
+header {
+        background-color: #f4f4f4;
+        padding-top: 30px;
+        min-height: 70px;
+        position: fixed;
+        width: 100%;
+}
+
+header a {
+        text-decoration: none;
+        color: darkblue;
+        font-weight: lighter;
+}
+
+header a:hover {
+        color: lightblue;
+}
+
+header ul {
+        margin: 0;
+        padding: 0;
+}
+
+header li {
+        float: left;
+        display: inline;
+        padding: 0 20px 0 20px;
+}
+
+header #branding {
+        float: left;
+        border: red 1px solid;
+}
+
+header #branding img {
+        height: 35px;
+        width: 35px;
+        padding-top: 5px;
+}
+
+header #branding h1 {
+        margin: 0;
+        display: inline;
+        font-size: 20px;
+        font-weight: 400;
+        position: relative;
+        top: -10px;
+}
+
+header nav {
+        float: right;
+        margin-top: 15px;
+}
+
 #nav-bg {
         background-color: white;
         height: 100px;
