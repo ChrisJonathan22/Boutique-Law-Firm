@@ -5,6 +5,11 @@
 
 }
 
+ul {
+        margin: 0;
+        padding: 0;
+}
+
 .container {
         width: 80%;
         margin: auto;
@@ -28,11 +33,6 @@ header a {
 
 header a:hover {
         color: lightblue;
-}
-
-header ul {
-        margin: 0;
-        padding: 0;
 }
 
 header li {
@@ -75,58 +75,6 @@ header nav {
         text-align: center;
 }
 
-#top-nav ul {
-        position: relative;
-        top: 50px;
-        list-style: none;
-}
-
-#top-nav ul li {
-        display: inline-block;
-        margin-left: 30px;
-}
-
-#top-nav ul li a {
-        text-decoration: none;
-        color: darkblue;
-        font-weight: lighter;
-}
-
-#top-nav ul li a:hover {
-        color: lightblue;
-}
-
-
-#logo-holder {
-        margin-left: -1000px;
-        margin-top: 20px;
-}
-
-
-#logo img {
-        height: 40px;
-        width: 40px;
-}
-
-#text-holder {
-        position: relative;
-        top: -32px;
-        left: 105px;
-
-}
-
-
-#logo-holder a {
-        text-decoration: none;
-        color: darkblue;
-}
-
-#logo-holder a:hover {
-        color: lightblue;
-}
-
-
-
 #parallax {
         /* This is how to make a parallax background */
         background: url("../img/background.jpg");
@@ -147,7 +95,20 @@ header nav {
         height: 800px;
         width: 40%;
         background: rgba(30, 144, 255, 0.5);
+        overflow: auto;
 
+}
+
+#parallax-text {
+        /* padding-top: 310px;
+        padding-left: 180px; */
+        float: left;
+        border: 1px red solid;
+        padding-top: 350px;
+        padding-left: 190px;
+        overflow: auto;
+        width: 60%;
+        
 }
 
 #title-text p {
@@ -168,12 +129,6 @@ header nav {
 #title-para {
         color: white;
         font-weight: 700;
-}
-
-#parallax-text {
-        /* I had to remove position relative because when the position is relative the text shows up on the nav bar when scrolling rather than going behind it so instead I used padding instead of top and left. */
-        padding-top: 310px;
-        padding-left: 180px;
 }
 
 #practice-areas {
