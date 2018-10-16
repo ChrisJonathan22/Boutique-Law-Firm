@@ -411,25 +411,14 @@ header nav {
         }
 }
 
-@media screen and (max-width: 850px) {
-        /* body {
-                display: none;
-        } */
-        #nav-holder {
-        width: 80%;
-        margin-top: -5px;
-        margin-left: auto;
-        margin-right: auto;
-        }
-
-        #logo-holder {
-                margin-left: -650px;   
-        }
-
-        #text-holder {
-                display: none;
-        }
+@media screen and (max-width: 768px) {
+        header #branding, header nav {
+                float: none;
+                text-align: center;
+        }  
 }
+
+
 
 
 
