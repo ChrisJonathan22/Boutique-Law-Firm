@@ -18,6 +18,7 @@
   "homepage": "https://github.com/ChrisJonathan22/Boutique-Law-Firm#readme",
   "dependencies": {
     "express": "^4.16.3",
+    "jshint": "^2.9.6",
     "serve-favicon": "^2.5.0"
   }
 }

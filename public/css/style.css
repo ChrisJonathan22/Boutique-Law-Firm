@@ -75,7 +75,7 @@ header nav {
         text-align: center;
 }
 
-#parallax {
+#parallax-bg {
         /* This is how to make a parallax background */
         background: url("../img/background.jpg");
         /*In order to get the img to appear I had to use the path above*/
@@ -85,6 +85,7 @@ header nav {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        overflow: hidden;
 }
 
 #parallax-overlay {
@@ -95,44 +96,47 @@ header nav {
         height: 800px;
         width: 40%;
         background: rgba(30, 144, 255, 0.5);
-        overflow: auto;
+        overflow: hidden;
 
 }
 
 #parallax-text {
         /* padding-top: 310px;
         padding-left: 180px; */
-        float: left;
+        /* float: right; */
         border: 1px red solid;
+        overflow: hidden;
+        width: 80%;
+        margin: auto;
         padding-top: 350px;
-        padding-left: 190px;
-        overflow: auto;
-        width: 60%;
-        
 }
 
-#title-text p {
+#parallax-text h2 {
         color: White;
         font-weight: bolder;
-        font-size: 40px;
+        font-size: 42px;
+        margin-left: 100px;
 }
 
-#title-text span {
+#parallax-text span {
         font-weight: lighter;
-        font-size: 40px;
+        font-size: 42px;
 }
 
-#title-text {
-        padding-bottom: 20px;
-}
-
-#title-para {
+#parallax-text p {
         color: white;
-        font-weight: 700;
+        font-family: 'open sans', sans-serif;
+        font-size: 18px;
+        padding-top: 20px;
+        width: 90%;
+        font-weight: 400;
+        margin-left: 100px;
 }
+
 
 #practice-areas {
-        background-color: white;
+        /* background-color: white; */
+        background-color: #f4f4f4;
         height: 500px;
 }
 
@@ -411,11 +415,28 @@ header nav {
         }
 }
 
+
+/* Mobile */
 @media screen and (max-width: 768px) {
-        header #branding, header nav {
+        /* header #branding, header nav {
                 float: none;
                 text-align: center;
-        }  
+                display: block;
+        }   */
+
+        /* #branding {
+                float: none;
+        } */
+
+        header #branding {
+                float: none;
+                border: pink 1px solid;
+                text-align: center;
+        }
+
+        header nav a {
+                font-size: 7.10px;
+        }
 }
 
 
