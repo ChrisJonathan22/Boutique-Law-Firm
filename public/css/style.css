@@ -23,6 +23,7 @@ header {
         min-height: 70px;
         position: fixed;
         width: 100%;
+        z-index: 50;
 }
 
 header a {
@@ -97,25 +98,40 @@ header nav {
         width: 40%;
         background: rgba(30, 144, 255, 0.5);
         overflow: hidden;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
 
+}
+
+#box {
+        position: absolute;
+        left: 100px;
+        top: 270px;
+        border: 1px yellow dashed;
 }
 
 #parallax-text {
         /* padding-top: 310px;
         padding-left: 180px; */
-        /* float: right; */
+        float: right;
         border: 1px red solid;
         overflow: hidden;
         width: 80%;
         margin: auto;
         padding-top: 350px;
+        left: 81px; 
+        position: absolute;
+        pointer-events: none;
 }
 
 #parallax-text h2 {
         color: White;
         font-weight: bolder;
         font-size: 42px;
-        margin-left: 100px;
+        /* margin-left: 50px; */
 }
 
 #parallax-text span {
@@ -127,10 +143,9 @@ header nav {
         color: white;
         font-family: 'open sans', sans-serif;
         font-size: 18px;
-        padding-top: 20px;
-        width: 90%;
         font-weight: 400;
-        margin-left: 100px;
+        padding-top: 20px;
+        /* margin-left: 50px; */
 }
 
 
@@ -368,6 +383,8 @@ header nav {
         float: right;
         margin-right: 235px;
         outline: none;
+        /* buttons have a border by default and it can be remove by using border: 0 or none; */
+        border: 0;
 }
 
 #back-to-top {
