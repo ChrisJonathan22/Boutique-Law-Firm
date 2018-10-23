@@ -105,17 +105,14 @@ header nav {
 }
 
 #parallax-text {
-        /* padding-top: 310px;
-        padding-left: 180px; */
         border: 1px red solid;
         overflow: hidden;
-        width: 80%;
-        margin: auto;
         padding-top: 350px;
         padding-left: 151px;
         pointer-events: none;
-        overflow: hidden;
         text-align: left;
+        width: 60%;
+        margin: auto;
 }
 
 #parallax-text h2 {
@@ -452,8 +449,3 @@ header nav {
                 font-size: 7.10px;
         }
 }
-
-
-
-
-
