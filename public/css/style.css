@@ -89,37 +89,26 @@ header nav {
 }
 
 #parallax-overlay {
-
-        /*For the transparent background I had to switch to a semi-transparent rgb background color to allow the text to be displayed correctly and not be transparent as well.*/
-        /*background-color: dodgerblue;
-        opacity: 0.5;*/
         height: 800px;
         width: 40%;
         background: rgba(30, 144, 255, 0.5);
         overflow: hidden;
-        position: relative;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0; 
 }
 
 #parallax-text {
         border: 1px red solid;
         overflow: hidden;
         padding-top: 350px;
-        padding-left: 151px;
+        padding-right: 50px;
         pointer-events: none;
         text-align: left;
-        width: 60%;
-        margin: auto;
+        float: right;
 }
 
 #parallax-text h2 {
         color: White;
         font-weight: bolder;
         font-size: 42px;
-        /* margin-left: 50px; */
 }
 
 #parallax-text span {
@@ -139,29 +128,23 @@ header nav {
 
 
 #practice-areas {
-        /* background-color: white; */
-        background-color: #f4f4f4;
+        background-color:#EAF4F6;
         height: 500px;
 }
 
 #practice-overlay {
-
-        /*For the transparent background I had to switch to a semi-transparent rgb background color to allow the text to be displayed correctly and not be transparent as well.*/
-        /*background-color: dodgerblue;
-        opacity: 0.5;*/
-        height: 800px;
+        height: 500px;
         width: 40%;
+        float: left;
         background: rgba(30, 144, 255, 0.1);
 }
 
 
 #practice-areas-text {
-        padding-top: 100px;
-        padding-left: 170px;
+        padding-top: 60px;
+        padding-right: 50px;
         overflow: hidden;
-        width: 80%;
-        margin: auto;
-        text-align: left;
+        float: right;
         border: 1px red solid;
 }
 
@@ -175,10 +158,23 @@ header nav {
         font-weight: 400;
 }
 
-#practice-list {
-        margin-left: 550px;
-        margin-top: -735px;
+#list-section {
+        float: right;
+        height: 500px;
+        width: 60%;
+        background-color: #EAF4F6;
 }
+
+#list-container {
+        margin-left: 40px;
+        margin-top: 60px;
+}
+
+#practice-list {
+        float: left;
+        padding-right: 50px;
+}
+
 
 #practice-list ul li {
         padding-bottom: 80px;
@@ -187,8 +183,7 @@ header nav {
 }
 
 #practice-list-2 {
-        margin-left: 880px;
-        margin-top: -456px;
+        float: left;
 }
 
 #practice-list-2 ul li {
