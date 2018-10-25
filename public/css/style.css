@@ -8,38 +8,27 @@
 ul {
         margin: 0;
         padding: 0;
+        list-style: none;
 }
 
-.container {
-        width: 80%;
-        margin: auto;
-        overflow: hidden;
-        border: green 1px solid;
-}
+/* HEADER/ NAV SECTION */
 
 header {
-        background-color: #f4f4f4;
+        background-color: white;
         padding-top: 30px;
+        /* The header will have a minimum height of 70px. */
         min-height: 70px;
         position: fixed;
         width: 100%;
+        /* I've used z-index on the header to make everything else scroll under it. */
         z-index: 50;
 }
 
-header a {
-        text-decoration: none;
-        color: darkblue;
-        font-weight: lighter;
-}
-
-header a:hover {
-        color: lightblue;
-}
-
-header li {
-        float: left;
-        display: inline;
-        padding: 0 20px 0 20px;
+.container {
+        width: 55%;
+        margin: auto;
+        overflow: hidden;
+        border: green 1px solid;
 }
 
 header #branding {
@@ -62,19 +51,31 @@ header #branding h1 {
         top: -10px;
 }
 
+header a {
+        text-decoration: none;
+        color: darkblue;
+        font-weight: lighter;
+        font-size: 13px;
+}
+
+header a:hover {
+        color: lightblue;
+}
+
+header li {
+        float: left;
+        padding: 0 20px 0 20px;
+}
+
 header nav {
         float: right;
         margin-top: 15px;
 }
 
-#nav-bg {
-        background-color: white;
-        height: 100px;
-        width: 100%;
-        margin-top: -15px;
-        position: fixed;
-        text-align: center;
-}
+/* THE END */
+
+
+/* MAIN SECTION */
 
 #parallax-bg {
         /* This is how to make a parallax background */
@@ -92,6 +93,7 @@ header nav {
         height: 800px;
         width: 40%;
         background: rgba(30, 144, 255, 0.5);
+        /* background-color: rgba(19, 62, 103, 0.671); */
         overflow: hidden;
 }
 
@@ -126,6 +128,10 @@ header nav {
         /* margin-left: 50px; */
 }
 
+/* THE END */
+
+
+/* PRACTICE AREAS SECTION */
 
 #practice-areas {
         background-color:#EAF4F6;
@@ -139,10 +145,9 @@ header nav {
         background: rgba(30, 144, 255, 0.1);
 }
 
-
 #practice-areas-text {
         padding-top: 60px;
-        padding-right: 50px;
+        padding-right: 110px;
         overflow: hidden;
         float: right;
         border: 1px red solid;
@@ -162,7 +167,7 @@ header nav {
         float: right;
         height: 500px;
         width: 60%;
-        background-color: #EAF4F6;
+        background-color: #FFFFFF;
 }
 
 #list-container {
@@ -192,6 +197,9 @@ header nav {
         color: darkblue;
 }
 
+/* THE END */
+
+
 #blue-bg {
         background-color: #00305B;
         width: 100%;
@@ -211,13 +219,11 @@ header nav {
         font-weight: 900;
 }
 
-#blue-bg-text-holder {
-        width: 70%;
-        margin: 0 auto;
-}
-
 #blue-bg-para {
         text-align: center;
+        width: 60%;
+        margin: 0 auto;
+        border: 1px red solid;
 }
 
 
