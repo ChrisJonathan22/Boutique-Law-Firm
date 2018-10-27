@@ -5,11 +5,29 @@
 
 }
 
+/* This class animates certain elements when the page loads. */
+.fadeIn {
+        animation: fade 2s;
+}
+
+@keyframes fade {
+        from {
+                display: inline-block;
+                opacity: 0;
+        }
+
+        to {
+                opacity: 1;
+        }
+}
+
 ul {
         margin: 0;
         padding: 0;
         list-style: none;
 }
+
+
 
 /* HEADER/ NAV SECTION */
 
@@ -25,7 +43,7 @@ header {
 }
 
 .container {
-        width: 55%;
+        width: 70%;
         margin: auto;
         overflow: hidden;
         border: green 1px solid;
@@ -237,6 +255,8 @@ header nav {
 /* THE END */
 
 
+/* MEETING SECTION */
+
 #meeting-parallax-bg {
         /* This is how to make a parallax background */
         background: url("../img/meeting-opacity.jpg");
@@ -248,6 +268,10 @@ header nav {
         background-repeat: no-repeat;
         background-size: cover;
 }
+
+/* THE END */
+
+/* ATTORNEYS SECTION */
 
 #attorneys-page {
         background-color: #EAF4F6;
@@ -285,6 +309,9 @@ header nav {
         font-weight: 100;
 }
 
+/* THE END */
+
+/* CONTACT SECTION */
 
 #contact {
         /* This is how to make a parallax background */
@@ -310,6 +337,9 @@ header nav {
 #contact-title {
         text-align: center;
         margin-top: 140px;
+        padding-right: 110px;
+        float: right;
+        overflow: hidden;
 }
 
 
@@ -329,11 +359,14 @@ header nav {
         float: right;
         color: white;
         text-align: left;
+        overflow: hidden;
 }
 
 #address-holder {
-        margin-left: -80px;
+        margin-left: 40px;
         margin-top: 150px;
+        float: left;
+        border: 1px red solid;
 }
 
 
@@ -355,22 +388,39 @@ header nav {
         text-decoration: none;
 }
 
+#contact-form {
+        border: 1px red solid;
+        overflow: hidden;
+}
+
 #contact-form p {
         padding-bottom: 20px;
 }
 
-.input {
+#user-info {
+        float: left;
         width: 35%;
-        height: 30px;
-        margin-bottom: 10px;
+        border: 1px red solid;
 }
 
-#contact-form #message {
-        width: 35%;
-        height: 118px;
-        float: right;
-        margin-right: 235px;
-        margin-top: -88px;
+.input {
+        width: 100%;
+        height: 22px;
+        margin-bottom: 5px;
+}
+
+#user-message {
+        float: left;
+        width: 40%;
+        border: 1px red solid;
+        overflow: hidden;
+        padding-left: 5px;
+
+}
+
+#message {
+        width: 100%;
+        height: 92px;
 }
 
 #contact-form #button {
@@ -381,11 +431,16 @@ header nav {
         width: 90px;
         height: 30px;
         float: right;
-        margin-right: 235px;
         outline: none;
         /* buttons have a border by default and it can be remove by using border: 0 or none; */
         border: 0;
 }
+
+
+/* THE END */
+
+
+/* FOOTER SECTION */
 
 #back-to-top {
         height: 80px;
@@ -415,43 +470,174 @@ header nav {
         font-weight: 100;
 }
 
+/* THE END */
 
-/* This class animates certain elements when the page loads. */
-.fadeIn {
-        animation: fade 2s;
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+        /* HEADER/ NAV SECTION */
+
+header {
+        min-height: 50px;
 }
 
-@keyframes fade {
-        from {
-                display: inline-block;
-                opacity: 0;
-        }
+.container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        padding-bottom: 20px;
+        border: green 1px solid;
+}
 
-        to {
-                opacity: 1;
-        }
+header #branding {
+        float: none;
+        width: 45%;
+        margin: 0 auto;
+}
+
+header li {
+        float: left;
+        padding: 0 20px 0 20px;
 }
 
 
-/* Mobile */
-@media screen and (max-width: 768px) {
-        /* header #branding, header nav {
-                float: none;
-                text-align: center;
-                display: block;
-        }   */
+/* THE END */
 
-        /* #branding {
-                float: none;
-        } */
 
-        header #branding {
-                float: none;
-                border: pink 1px solid;
-                text-align: center;
-        }
+/* MAIN SECTION */
 
-        header nav a {
-                font-size: 7.10px;
-        }
+#parallax-bg {
+        height: 600px;
+}
+
+#parallax-overlay {
+        height: 600px;
+}
+
+#parallax-text {
+        padding-top: 200px;
+        padding-left: 30px;
+}
+
+#parallax-text h2, #parallax-text span {
+        font-size: 35px;
+}
+
+#parallax-text p {
+        font-size: 14px;
+}
+
+/* THE END */
+
+/* PRACTICE AREAS SECTION */
+
+#practice-areas, #practice-overlay {
+        height: 400px;
+}
+
+
+#practice-areas-text {
+        padding-top: 60px;
+        padding-right: 20px;
+}
+
+#practice-areas-text p {
+        font-size: 35px;
+}
+
+#list-section {
+        height: 400px;
+        width: 60%;
+}
+
+#list-section li {
+        font-size: 12px;
+}
+
+#list-container {
+        padding-top: 10px;
+        margin-left: 5px;
+        height: 400px;
+}
+
+#practice-list {
+        /* border: 1px red solid; */
+        width: 41%;
+        overflow: hidden;
+}
+
+
+#practice-list ul li, #practice-list-2 ul li {
+        padding-bottom: 30px;
+}
+
+#practice-list-2 {
+        float: left;
+        width: 41%;
+        overflow: hidden;
+        padding-left: 25px;
+}
+
+/* THE END */
+
+/* VISION SECTION */
+
+#blue-bg {
+        height: 500px;
+}
+
+#vision h2 {
+        font-size: 35px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+}
+
+#blue-bg-para {
+        width: 80%;
+        overflow: hidden;
+}
+
+#blue-bg-para p {
+        color: white;
+        font-size: 15px;
+}
+
+/* THE END */
+
+/* MEETING SECTION */
+
+#meeting-parallax-bg {
+        height: 600px;
+}
+
+/* THE END */
+
+/* ATTORNEYS SECTION */
+
+#attorneys-page {
+        height: 660px;
+}
+
+#attorneys-holder {
+        padding-top: 70px;
+}
+
+.align {
+        padding-left: 20px;
+}
+
+#attorneys-page h2 {
+        padding-top: 50px;
+        font-size: 35px;
+}
+
+.info-size {
+        font-size: 15px;
+}
+
+/* THE END */
+
 }
