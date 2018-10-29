@@ -742,4 +742,62 @@ header li {
         }
 
             /* THE END */
+
+            /* MAIN SECTION */
+
+#parallax-bg {
+        /* This is how to make a parallax background */
+        background: url("../img/background.jpg");
+        /*In order to get the img to appear I had to use the path above*/
+        /* height: 465px; */
+        min-height: 100%;
+        min-width: 100%;
+        background-size: contain;
+        /* background-attachment: fixed; */
+        background-position: center;
+        background-repeat: no-repeat;
+        border: 1px red solid;
+}
+
+#parallax-overlay {
+        height: 465px;
+        width: 40%;
+        background: rgba(30, 144, 255, 0.5);
+        /* background-color: rgba(19, 62, 103, 0.671); */
+        overflow: hidden;
+        display: none;
+}
+
+#parallax-text {
+        border: 1px red solid;
+        overflow: hidden;
+        padding-top: 350px;
+        padding-right: 50px;
+        pointer-events: none;
+        text-align: left;
+        float: right;
+}
+
+#parallax-text h2 {
+        color: White;
+        font-weight: bolder;
+        font-size: 42px;
+}
+
+#parallax-text span {
+        font-weight: lighter;
+        font-size: 42px;
+}
+
+#parallax-text p {
+        color: white;
+        font-family: 'open sans', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        padding-top: 20px;
+        text-align: left;
+        /* margin-left: 50px; */
+}
+
+/* THE END */
 } 
