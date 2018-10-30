@@ -664,6 +664,8 @@ header li {
                 border: red 1px solid;
                 width: 40%;
                 margin-left: 25px;
+                line-height: 20px;
+                text-align-last: center;
         }
         
         header #branding img {
