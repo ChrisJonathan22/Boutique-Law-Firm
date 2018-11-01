@@ -34,7 +34,9 @@ ul {
 /* THE END */
 
 /* SIDE MENU */
-
+        #side-menu {
+                display: none;
+        }
 /* THE END */
 
 /* HEADER/ NAV SECTION */
@@ -655,6 +657,21 @@ header li {
 @media only screen and (max-width: 600px) {
         
         /* MOBILE HEADER SECTION */
+
+        #side-menu {
+                display: block;
+                position: absolute;
+                width: '550px';
+                height: '550px';
+        }
+
+        .show {
+                display: block;
+                position: 'absolute';
+                background-color: 'red';
+                width: '550px';
+                height: '550px';
+        }
 
         header {
                 /* min-height: 50px; */
