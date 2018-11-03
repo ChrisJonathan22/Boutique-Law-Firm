@@ -659,18 +659,10 @@ header li {
         /* MOBILE HEADER SECTION */
 
         #side-menu {
-                display: block;
-                position: absolute;
+                /* position: absolute; */
                 width: '550px';
-                height: '550px';
-        }
-
-        .show {
-                display: block;
-                position: 'absolute';
-                background-color: 'red';
-                width: '550px';
-                height: '550px';
+                height: '950px';
+                background-color: 'green';
         }
 
         header {
@@ -725,7 +717,7 @@ header li {
 
         nav {
                 display: none;
-                
+
         }
 
         #menu-container {
