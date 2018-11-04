@@ -61,7 +61,6 @@ header {
 
 header #branding {
         float: left;
-        border: red 1px solid;
 }
 
 header #branding img {
@@ -658,13 +657,6 @@ header li {
         
         /* MOBILE HEADER SECTION */
 
-        #side-menu {
-                /* position: absolute; */
-                width: '550px';
-                height: '950px';
-                background-color: 'green';
-        }
-
         header {
                 /* min-height: 50px; */
                 height: 80px;
@@ -673,9 +665,9 @@ header li {
 
         header #branding {
                 float: left;
-                border: red 1px solid;
                 width: 50%;
                 margin-left: 25px;
+                margin-top: -10px;
                 line-height: 20px;
                 text-align-last: center;
         }
@@ -760,6 +752,29 @@ header li {
                 transform: rotate(45deg) translate(-8px, -8px);
         }
 
+
+        #side-menu {
+                /* position: absolute; */
+                width: 60%;
+                height: 100%;
+                background-color: white;
+                padding-top: 130px;
+        }
+
+        #side-menu a {
+                display: block;
+                width: 140px;
+                text-decoration: none;
+                padding-left: 20px;
+                padding-bottom: 20px;
+                color: darkblue;
+                font-weight: 100;
+        }
+
+        #side-menu a:hover {
+                color: lightblue;
+        }
+
             /* THE END */
 
             /* MAIN SECTION */
@@ -768,29 +783,26 @@ header li {
         /* This is how to make a parallax background */
         background: url("../img/background.jpg");
         /*In order to get the img to appear I had to use the path above*/
-        /* height: 465px; */
-        min-height: 100%;
-        min-width: 100%;
-        background-size: contain;
-        /* background-attachment: fixed; */
+        height: 530px;
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         border: 1px red solid;
 }
 
 #parallax-overlay {
-        height: 465px;
-        width: 40%;
+        height: 60%;
+        width: 100%;
         background: rgba(30, 144, 255, 0.5);
         /* background-color: rgba(19, 62, 103, 0.671); */
-        overflow: hidden;
-        display: none;
+        float: none;
 }
 
 #parallax-text {
-        border: 1px red solid;
+        /* Remove when done */
+        border: 0;
         overflow: hidden;
-        padding-top: 350px;
+        padding-top: 130px;
         padding-right: 50px;
         pointer-events: none;
         text-align: left;
@@ -819,4 +831,78 @@ header li {
 }
 
 /* THE END */
+
+
+/* PRACTICE AREAS SECTION */
+
+#practice-areas {
+        background-color:#EAF4F6;
+        height: 1200px;
+}
+
+#practice-overlay {
+        height: 200px;
+        width: 100%;
+        float: none;
+        background: rgba(30, 144, 255, 0.1);
+}
+
+#practice-areas-text {
+        padding-top: 60px;
+        padding-left: 30px;
+        overflow: hidden;
+        float: left;
+        border: 0;
+}
+
+#practice-areas-text p {
+        color: darkblue;
+        font-size: 40px;
+        font-weight: bolder;
+}
+
+#practice-areas-text span {
+        font-weight: 400;
+}
+
+#list-section {
+        float: none;
+        height: 1200px;
+        width: 100%;
+        background-color: #FFFFFF;
+        overflow: hidden;
+}
+
+#list-container {
+        margin-left: 40px;
+        margin-top: 60px;
+}
+
+#practice-list {
+        float: left;
+        padding-right: 50px;
+}
+
+
+#practice-list ul li {
+        padding-bottom: 80px;
+        /* width: 220px; */
+        width: 100%;
+        color: darkblue;
+}
+
+#practice-list-2 {
+        float: left;
+}
+
+#practice-list-2 ul li {
+        padding-bottom: 80px;
+        /* width: 220px; */
+        width: 100%;
+        color: darkblue;
+}
+
+/* THE END */
+
+
 } 

@@ -12,6 +12,7 @@ function burgerMenu () {
     else {
         sideMenu.style.display = "block";
     }
+    sideMenu.classList.toggle('fadeIn');
     this.classList.toggle('change');
 }
 menu.addEventListener('click', burgerMenu, false);
