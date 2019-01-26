@@ -4,6 +4,7 @@
   "description": "Basic Law firm web page.",
   "main": "server.js",
   "scripts": {
+    "start": "cd Server && node server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
