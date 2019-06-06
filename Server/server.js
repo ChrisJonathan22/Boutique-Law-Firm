@@ -8,7 +8,7 @@ app.use(favicon(path.join(__dirname, '../public/img', 'logo.ico')));
 app.use(express.static('../public'));
 
 
-app.get('/boutiquelawfirm', (req,res) => {
+app.get('/', (req,res) => {
     res.sendFile(path.join(__dirname, '../index.html'));
 });
 
